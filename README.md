@@ -28,7 +28,13 @@ It uses a fully synthetic dataset created only for demonstration purposes.
 - `requirements.txt` → dependencies  
 - `dashboard_screenshot.png` → app screenshot  
 
+## Dashboard Preview
+![Dashboard Screenshot](dashboard_screenshot.png)
+
 ## Run locally
 ```bash
 python3 -m pip install -r requirements.txt
 python3 -m streamlit run app.py
+
+## Project approach
+I intentionally kept the modeling side relatively simple and interpretable, because in industrial environments explainability and clarity are often as important as raw model complexity.
